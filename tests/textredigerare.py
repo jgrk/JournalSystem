@@ -85,6 +85,6 @@ def redigerare():
 
     root.mainloop()
 
-
+redigerare()
 
 
