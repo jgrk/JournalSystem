@@ -1,18 +1,27 @@
 from textredigerare import *
 class User:
-    def __init__(self, fnamn, enamn, persnr, email, losen, journal):
-        self.fnamn = fnamn #förnamn str
-        self.enamn = enamn #efternamn str
+    def __init__(self, namn, persnr, mail, losen, journal):
+        self.namn = namn #förnamn str
         self.persnr = persnr #personnummer str
-        self.email = email #email str
+        self.mail = mail #email str
         self.losen = losen #lösen str
         self.journal = journal #txt str
 
-    def skapa_journal(self):
-        redigerare
+    def open_journal(self):
+        redigerare()
     
     def inlogg(self):
-        persnr
+        persnr = input("Personnummer: ")
+        losen = input("Lösenord: ")
+        return self.persnr == persnr and self.losen == losen
+
+    def ändra_uppgifter():
+        pass
+
+
+
+
+
 
         
         

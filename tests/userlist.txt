@@ -1,0 +1,3 @@
+namn,persnr,email,losen,journal
+erik,010907,erik@mail.com,qwerty123,eriksjournal
+lars,640805,lars@mail.com,qwert123,larsjournal
